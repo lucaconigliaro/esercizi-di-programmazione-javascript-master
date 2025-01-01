@@ -14,5 +14,4 @@
   Consiglio:
   Per indentare puoi usare il tab con '\t'.
   
-  http://www.imparareaprogrammare.it
 */

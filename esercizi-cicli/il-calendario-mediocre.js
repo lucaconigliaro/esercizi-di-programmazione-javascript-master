@@ -39,9 +39,20 @@
             Mar 30
             Mer 31
 
-
-  Variante:
-  Piuttosto che avere in input il numero dei giorni del mese passa direttamente il mese e calcola tu da quanti giorni è formato.
-
-  http://www.imparareaprogrammare.it
 */
+
+// Dati di input
+let numDays = 31; 
+let weekDay = 0;
+
+// Giorni della settimana
+let days = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"];
+
+// Ciclo per stampare il calendario
+for (let i = 1; i <= numDays; i++) {
+    // Stampa il giorno con il nome della settimana
+    console.log(days[weekDay] + " " + i);
+    
+    // Passa al giorno successivo
+    weekDay = (weekDay + 1) % 7;  // Ciclo tra 0 (Lun) e 6 (Dom)
+}

@@ -17,5 +17,18 @@
   Consiglio:
   Per andare a capo usa '\n'.
 
-  http://www.imparareaprogrammare.it
 */
+
+// Ciclo per stampare i numeri da 1 a 100
+let numbers = '';
+for (let i = 1; i <= 100; i++) {
+    numbers += i + ' ';  // Aggiungi il numero e uno spazio
+
+    // Se il numero è divisibile per 10 vai a capo
+    if (i % 10 === 0) {
+        numbers += '\n';
+    }
+}
+
+// Output
+console.log(numbers);

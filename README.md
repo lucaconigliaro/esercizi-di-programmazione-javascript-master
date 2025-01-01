@@ -21,11 +21,11 @@
   
 ## Esercizi sui cicli (for, while e do-while)
 * **Facili**
-  * Rincorri la decina
-  * Ti ricordi le tabelline?
+  *   ✔ Rincorri la decina
+  *   ✔ Ti ricordi le tabelline?
 * **Medi**
-  * Vinci tu!
-  * Il calendario mediocre
+  *   ✔ Vinci tu!
+  *   ✔ Il calendario mediocre
 * **Difficili**
   * Rombo che stampa!
   

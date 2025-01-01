@@ -11,7 +11,13 @@
 
   Consigli:
   Per capire se un numero è pari o dispari puoi usare un operatore, ma quale? :) 
-  (Se non ti ricordi riguarda la lezione "Come dichiarare e definire le variabili e i tipi di dato" oppure "Il tipo Numero e gli operatori aritmetici")
 
-  http://www.imparareaprogrammare.it
 */
+
+let number = 63;
+
+if (number % 2 === 0) {
+  console.log(0); // Il numero è pari
+} else {
+  console.log(1); // Il numero è dispari
+} 

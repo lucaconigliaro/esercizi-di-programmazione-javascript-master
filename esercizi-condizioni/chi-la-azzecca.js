@@ -17,5 +17,34 @@
     (Math.random() * (100-1) + 1)
   Ricordati che il valore dovrà essere intero quindi dovrai arrontondarlo usando Math.floor()
 
-  http://www.imparareaprogrammare.it
 */
+
+// Numeri dei giocatori
+let player1 = 5;
+let player2 = 10;
+
+// Numero casuale
+let randomNum = Math.floor(Math.random() * (100 - 1) + 1);
+
+// Distanza numero dei giocatori
+let distancePlayer1 = player1 - randomNum;
+let distancePlayer2 = player2 - randomNum;
+
+// Output numero generato
+console.log("Numero casuale generato =", randomNum);
+
+// Verifica se uno dei giocatori ha indovinato il numero
+if (player1 === randomNum) {
+    console.log("Il giocatore 1 ha indovinato il numero");
+} else if (player2 === randomNum) {
+    console.log("Il giocatore 2 ha indovinato il numero");
+} else {
+    // Nessuno ha indovinato, determina chi si è avvicinato di più
+    if (distancePlayer1 < distancePlayer2 && distancePlayer1 > 0) {
+        console.log("Il giocatore 1 si è avvicinato di più");
+    } else if (distancePlayer2 < distancePlayer1 && distancePlayer2 > 0) {
+        console.log("Il giocatore 2 si è avvicinato di più");
+    } else {
+        console.log("Entrambi i giocatori sono vicini al numero casuale");
+    }
+}

@@ -19,5 +19,27 @@
     Input: scelta = 7
     Output: Dolce non disponibile
 
-  http://www.imparareaprogrammare.it
 */
+
+// Menu
+console.log("MENU:");
+console.log("1. Tiramisù");
+console.log("2. Torta della nonna");
+console.log("3. Cheesecake alla nutella");
+console.log("4. Macedonia");
+
+// Scelta
+let choise = parseInt(prompt("Inserisci il numero del dolce che desideri scegliere (1-4):"));
+
+// Verifica
+if (choise === 1) {
+    console.log("Hai scelto il dolce Tiramisù");
+} else if (choise === 2) {
+    console.log("Hai scelto il dolce Torta della nonna");
+} else if (choise === 3) { 
+  console.log("Hai scelto il dolce Cheesecake alla nutella");
+} else if (choise === 4) {
+    console.log("Hai scelto il dolce Macedonia");
+} else {
+    console.log("Dolce non disponibile");
+}

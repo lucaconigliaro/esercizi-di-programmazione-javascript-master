@@ -12,7 +12,19 @@
 
     Input: n = 2, m = 2
     Output: TRUE
-
-    
-  http://www.imparareaprogrammare.it
 */
+
+
+function uguaglianza(n, m) {
+  // Confronta i due argomenti
+  if (n === m) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// Output
+console.log(uguaglianza(2, 3));
+console.log(uguaglianza(2, '2'));
+console.log(uguaglianza(2, 2));

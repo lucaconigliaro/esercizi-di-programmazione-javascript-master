@@ -12,5 +12,15 @@
             0
 
             
-  http://www.imparareaprogrammare.it
 */
+
+// Funzione per il conto alla rovescia
+function contoAllaRovescia(n) {
+  for (let i = n - 1; i >= 0; i--) {
+    console.log(i);
+  }
+}
+
+// Output
+const numero = 5;
+contoAllaRovescia(numero);

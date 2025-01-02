@@ -52,14 +52,14 @@
   
 ## Esercizi sulle funzioni
 * **Facili**
-  * La funzione banale
-  * Primo e ultimo
-  * La difficoltà del fattoriale
-  * Tick, tack, timer!
+  *   ✔ La funzione banale
+  *   ✔ Primo e ultimo
+  *   ✔ La difficoltà del fattoriale
+  *   ✔ Tick, tack, timer!
   * Indovina il giorno
 * **Medi**
-  * Conta il numero
-  * La bellezza della casualità
+  *   ✔ Conta il numero
+  *   ✔ La bellezza della casualità
   * La funzione che sembra difficile
   * Il genio delle date
   * Pa-pa-pa lindomo

@@ -7,6 +7,4 @@
     Input : N = 123456, K = 3
     Output: 4
 
-    
-  http://www.imparareaprogrammare.it
 */

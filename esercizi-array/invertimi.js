@@ -13,5 +13,22 @@
   Consigli:
   Per la variante ricordati l'uso degli indici del ciclo ;)
 
-  http://www.imparareaprogrammare.it
 */
+
+// Numero di elementi nell'array
+const number = 5;
+
+// Array
+const array = [];
+for (let i = 0; i < number; i++) {
+  array.push(Math.floor(Math.random() * 100) + 1);
+}
+console.log("Array ottenuto = ", array);
+
+// Array invertito
+const newArray = [];
+for (let i = array.length - 1; i >= 0; i--) {
+  newArray.push(array[i]);
+}
+
+console.log("Array invertito =", newArray);

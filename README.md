@@ -31,8 +31,8 @@
   
 ## Esercizi sulle array
 * **Facili**
-  * Invertimi
-  * Tanti numeri
+  *   ✔ Invertimi
+  *   ✔ Tanti numeri
 * **Medi**
   * La tombola magica
   * Operazioni tra array
